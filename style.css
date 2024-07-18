@@ -1,0 +1,261 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700&display=swap');
+
+:root{
+    --primary: #FFE400;
+    --secondary: #FF652F;
+    --tertiary: #747474;
+    --dark: #272727;
+    --pure: #FFFFFF;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: var(--dark);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/controller.jpg');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+header h1 span{
+    color: var(--secondary);
+}
+
+.header-content{
+    margin-bottom: 250px;
+    text-align: center;
+    color: var(--pure);
+}
+
+.header-content h2{
+    font-size: 4vmin;
+}
+
+.header-content h2 span{
+    color: var(--primary);
+}
+
+.line{
+    height: 4px;
+    background: var(--primary);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 10vmin;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 8px var(--tertiary);
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: var(--pure);
+}
+
+.navbar h1{
+    font-size: 2rem;
+}
+
+.navbar h1 span{
+    color: var(--dark);
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+.nav-links a:hover{
+    color: var(--secondary);
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--pure);
+    font-size: 1.5rem;
+    transition: all 0.15s;
+}
+
+.events{
+    height: 130vh;
+}
+
+.title{
+    margin-top: 3.5rem;
+    text-align: center;
+    font-size: 4vmin;
+    color: var(--tertiary);
+}
+
+
+
+section .line{
+    height: 4px;
+    background: var(--primary);
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.row{
+    margin-top: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.row h4{
+    font-size: 4vmin;
+    color: var(--pure);
+    margin: 30px;
+}
+
+.row p{
+    font-size: 2.25vmin;
+    color: var(--primary);
+    width: 80%;
+    line-height: 35px;
+}
+
+.row p span{
+    color: var(--secondary);
+}
+
+.gta{
+    width: 55vh;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.blk{
+    width: 50vh;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.explore{
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/ghost2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-content h1{
+    font-size: 4.5rem;
+    color: var(--primary);
+    margin-bottom: 35px;
+    text-shadow: 4px 4px 10px var(--dark)
+}
+
+.explore-content p{
+    font-size: 1.3rem;
+    color: var(--pure);
+    line-height: 35px;
+    text-shadow: 2px 2px 8px var(--dark)
+}
+
+.explore-content p span{
+    color: var(--secondary);
+}
+
+.musttry .row{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.musttry .image-gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 30px;
+    box-shadow: 4px 4px 10px black;
+}
+
+.content-col{
+    width: 40%;
+}
+
+.image-col{
+    width: 60%;
+}
+
+.musttry .row .col {
+    width: 50%;
+}
+
+
+
+.content-col h1{
+    font-size: 5rem;
+    color: var(--secondary);
+    text-shadow: 2px 2px 8px black
+}
+
+.content-col p{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    line-height: 40px;
+    color: var(--tertiary);
+}
+
+.image-gallery img{
+    width: 100%;
+}
